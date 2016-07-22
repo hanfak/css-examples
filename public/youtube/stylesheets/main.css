@@ -1,0 +1,81 @@
+body {
+  background-color: lightgrey;
+}
+
+nav {
+  background-color: purple;
+  border: 2px solid black;
+  margin-bottom: 10px;
+
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  float:left;
+	padding:15px 0;
+	min-width:100%;
+}
+section {
+  float: left;
+  margin-top: 30px
+}
+#video {
+  background-color: red;
+  border: 2px solid black;
+  padding-left:100px ;
+  margin: 10px;
+  /*float: left;*/
+
+}
+
+#video-details{
+  background-color: green;
+  border: 2px solid black;
+  /*padding: 10px;*/
+  margin: 10px;
+  /*float: left;*/
+
+}
+
+#video-information {
+  background-color: blue;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  /*float: left;*/
+
+}
+
+#comments {
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  /*float: left;*/
+}
+
+#other-videos {
+  background-color: white;
+  /*margin: 10px;*/
+  margin-top: 40px;
+
+  border: 2px solid black;
+  /*padding: 10px;*/
+  float: right;
+  padding: 10px 100px;
+}
+
+footer {
+  background-color: orange;
+  border-top: 2px solid black;
+  /*border-right: 2px solid black;*/
+  /*padding: 10px;*/
+  /*margin: 10px;*/
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  float:left;
+	padding:15px 0;
+	min-width:100%;
+}
