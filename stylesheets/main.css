@@ -6,10 +6,8 @@ body {
 }
 
 nav {
-  /*border-bottom: 2px solid black;*/
   padding: 30px;
   background:  linear-gradient(#304f4e,#74AFAD);
-  /*width:100%;*/
   overflow: hidden;
   margin-bottom: 30px;
 }
@@ -26,14 +24,26 @@ h2 {
   display: inline;
   border-bottom: 2px solid blue;
 }
+
 .panel, .flip {
   padding: 5px;
   background-color: #e1e1e1;
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px;
+  border: 5px solid black;
+}
+
+.flip {
+  padding-left: 30px
 }
 
 .panel {
     padding: 50px;
+}
+
+.active {
+  border-radius: 15px 15px 0 0;
+  background-color: lightgrey;
+  border-bottom: none;
 }
 
 .details {

@@ -5,3 +5,6 @@ Things to learn
 - SASS
 - Bootstrap
 - Foundatoin
+
+To do:
+  - fix pop to be the centre always

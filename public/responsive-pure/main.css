@@ -1,0 +1,93 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.details {
+  border: 5px solid black;
+  background-color: #A52A2A;
+  height: 150px;
+  margin: 20px;
+  font-family: Helvetica;
+  color: white;
+  position: relative;
+}
+
+p {
+position: absolute;
+bottom: 0;
+margin: 0 10px 10px 10px ;
+padding-left: 10px;
+display:inline;
+}
+
+.title {
+  float: right;
+  position: static;;;
+  display:inline;
+  border: 5px solid black;
+  padding: 10px;
+  margin-top: -5px;
+  margin-right: -5px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/*desktop*/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    display:inline-block;
+    float: left;
+    width: 33.33%;
+  }
+
+  .details {
+    height:200px;
+  }
+
+  p {
+    font-size: 100%;
+  }
+}
+
+/*Medium*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .col-md-6, .col-md-12 {
+    display:inline-block;
+    float: left;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-12.details {
+    height:75%;
+  }
+
+  p {
+    float: left;
+    display:block;
+  }
+
+  .title {
+    display:block;
+  }
+
+  .col-md-12 p {
+    font-size: 1.25em;
+  }
+}
