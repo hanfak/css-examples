@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./public/main-js/main.js"></script>
+    <script src="./public/main-js/popup.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/popup.css">
     <title>CSS Examples</title>
   </head>
 
@@ -10,32 +14,31 @@
     <nav>
 
     </nav>
-    
+
     <h1>CSS examples</h1>
 
     <p>This is just a place to experiment with HTML, CSS, CSS frameworks (bootstrap, foundation), javascript (pure, JQuery, frameworks)</p>
 
+    <p>click the green panale to show or hide the contents</p>
+
     <div class='examples'>
-      <ul>
-        <li>
+
           <h2>Plain CSS examples</h2>
-          <ul>
-            <li class="example">
-              <h3>Youtube CSS clone</h3>
+            <div class="example">
+              <h3 class="flip">Youtube CSS clone</h3>
+
               <div class="details">
                 <a href="./public/youtube/main.html" target="_blank">youtube clone</a>
                 <h4>Description</h4>
                 <p>(WORK IN PROGRESS) A clone of a video page on youtube. CSS only.</p>
+                <p>Status - structure done</p>
               </div>
-            </li>
-          </ul>
-        </li>
+            </div>
 
-        <li>
           <h2>Pure Javascript Examples</h2>
-          <ul>
-            <li class="example">
-              <h3>Colour Picker</h3>
+            <div class="example">
+              <h3 class="flip">Colour Picker</h3>
+
               <div class="details">
                 <a href="./public/colour-picker/colour-picker.html" target="_blank">Colour picker</a>
                 <h4>Description</h4>
@@ -45,10 +48,22 @@
                   <li>Field input, type in colour and then change background</li>
                 </ul>
               </div>
-            </li>
-          </ul>
-        </li>
-      </ul>
+            </div>
+
+    </div>
+
+
+    <div id="boxes">
+      <div id="dialog" class="window">
+        <h3>Status for page</h3>
+        <p>Added pop up</p>
+        <p>Add toggle slide for content</p>
+        <p>colour gradients</p>
+        <div id="popupfoot">
+          <p>CLOSE</p>
+        </div>
+      </div>
+      <div id="mask"></div>
     </div>
 
     <footer></footer>

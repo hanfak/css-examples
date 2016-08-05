@@ -1,29 +1,24 @@
 body {
-  background-color: lightgrey;
+  background: radial-gradient(#74AFAD,#dfeceb);
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  border-bottom: 2px solid black;
+  /*border-bottom: 2px solid black;*/
   padding: 30px;
-  background:red;
+  background:  linear-gradient(#304f4e,#74AFAD);
   /*width:100%;*/
   overflow: hidden;
   margin-bottom: 30px;
 }
 
 h1 {
-
   display: inline;
   padding: 0 10px;
   border: 2px solid black;
   border-radius: 18px;
-}
-
-ul{
-  list-style: none;
 }
 
 h2 {
@@ -31,11 +26,24 @@ h2 {
   display: inline;
   border-bottom: 2px solid blue;
 }
+.panel, .flip {
+  padding: 5px;
+  background-color: #e1e1e1;
+  border-radius: 15px 15px 0 0;
+}
+
+.panel {
+    padding: 50px;
+}
 
 .details {
-  margin-left: 20px;
+  padding: 20px;
+  margin-top: -10px;
+  background-color: #e1e1e1;
+  border-radius: 0 0 15px 15px;
 }
 
 .example {
   text-align: left;
+  margin: 20px 150px;
 }
