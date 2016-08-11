@@ -25,6 +25,11 @@ h2 {
   border-bottom: 2px solid blue;
 }
 
+.example {
+  text-align: left;
+  margin: 20px 150px;
+}
+
 .panel, .flip {
   padding: 5px;
   background-color: #e1e1e1;
@@ -37,7 +42,7 @@ h2 {
 }
 
 .panel {
-    padding: 50px;
+  padding: 50px;
 }
 
 .active {
@@ -51,9 +56,33 @@ h2 {
   margin-top: -10px;
   background-color: #e1e1e1;
   border-radius: 0 0 15px 15px;
+  border: 5px solid black;
+  border-top: none;
 }
 
-.example {
-  text-align: left;
-  margin: 20px 150px;
+.table {
+  display: table;
+	margin: 0 auto;
+}
+
+.table ul{
+  list-style: none;
+  text-align: center;
+  min-width: 696px;
+}
+
+.table ul li{
+  background-color: #000000;
+  margin-right: 30px;
+  width: 150px;
+  line-height: 60px;
+  display:inline;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow:  0 0 25px #304f4e;
+}
+
+.table ul li a {
+  text-decoration: none;
+  color: white;
 }
