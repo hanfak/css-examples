@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="main.js"></script>
+
+  <title>Document</title>
+</head>
+<body>
+  <!-- <div id="normal">Raw resize events<br></div> -->
+  <div id='progress'>
+
+  </div>
+
+  <div id="wrap">
+    <div id="left_col">
+
+    </div>
+    <div id="right_col">
+      <p>
+
+        This is an example of a debounce function
+      </p>
+      <p>
+        Everytime you scroll, an event is triggered. If we want to trigger some function (ie the percentaged scrolled) this function will trigger eveytime we scroll, taking up lots of resources and lowering performance.
+      </p>
+      <p>
+        Instead, we use a debounce, which will execute the function only after a certain amount of time has passed OR execute the function first and wait some time to before the next time to excute (as long as the scroll event is still happening).
+      </p>
+      <p>
+        This improves performance, as the function is not triggered lots of times
+      </p>
+    </div>
+  </div>
+  <div id="debounce"><h2>debounced events</h2></div>
+  <div id="normal"> <h2>Actual events</h2></div>
+
+
+</body>
+</html>

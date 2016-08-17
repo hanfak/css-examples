@@ -45,7 +45,7 @@ section {
   display:block;
   padding-top: 135px;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 75px;
   width:100%;
 
 }
@@ -53,13 +53,26 @@ section {
 section img {
   display:block;
   margin: 0 auto;
-
+  padding-bottom: 30px;
 }
 
 section input {
+  font-size: 15px;
+  font-family:arial, sans-serif;
   display:block;
   margin: 0 auto;
   width: 600px;
+  padding:7px;
+  border: 0.5px solid grey;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+}
+
+input[type=text]:focus, textarea:focus {
+  border: 0.005em solid green;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1)
 }
 
 section div {
