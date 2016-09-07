@@ -65,4 +65,4 @@ document.onscroll = debounce(function (e) {
     div.innerHTML += 'Debounced scroll ' + getScrollPercent()+'%<br>';
     console.log(getScrollPercent());
     console.log(e);
-}, 350, true);
+}, 350, false);
